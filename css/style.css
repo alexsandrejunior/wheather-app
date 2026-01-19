@@ -4,21 +4,15 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-.bg-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  z-index: -1;
-}
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url("../img/fundo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hide {
@@ -29,11 +23,9 @@ body {
   background: rgba(255, 255, 255, 0.88);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
   padding: 2rem;
   border-radius: 1rem;
-
   color: #2d2d2d;
   min-width: 300px;
 }
